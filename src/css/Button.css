@@ -1,0 +1,24 @@
+.btn {
+    padding: 0.6rem 1.2rem; /* Uniform size */
+    background-color: #6A0DAD; /* Vibrant purple */
+    color: #E0E0E0; /* Soft white */
+    border: 1px solid #4B0082; /* Dark purple */
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #9370DB; /* Light purple */
+    color: #FFFFFF; /* Pure white */
+    border-color: #6A0DAD;
+  }
+  
+  @media (max-width: 480px) {
+    .btn {
+      padding: 0.5rem 1rem; /* Slightly smaller */
+      font-size: 0.9rem;
+    }
+  }

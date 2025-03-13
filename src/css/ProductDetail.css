@@ -1,0 +1,67 @@
+.product-detail {
+    padding: 2rem;
+    background-color: #141414; /* Deep black */
+    color: #E0E0E0; /* Soft white */
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .product-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-info {
+    flex: 1;
+  }
+  
+  .product-info h1 {
+    font-size: 2rem;
+    color: #9370DB; /* Light purple */
+    margin: 0 0 1rem;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #6A0DAD; /* Vibrant purple */
+    margin: 0 0 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #E0E0E0;
+    margin: 0 0 1.5rem;
+  }
+  
+  .sizes h3 {
+    font-size: 1.2rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  .size-btn {
+    padding: 0.4rem 0.8rem;
+    margin-right: 0.5rem;
+    background-color: #333333; /* Mid-gray black */
+    color: #E0E0E0;
+    border: 1px solid #4B0082; /* Dark purple */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .size-btn:hover {
+    background-color: #6A0DAD; /* Vibrant purple */
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 480px) {
+    .product-detail {
+      padding: 1rem;
+      flex-direction: column;
+    }
+    .product-image img { max-width: 100%; }
+    .product-info h1 { font-size: 1.5rem; }
+    .price { font-size: 1.2rem; }
+  }

@@ -1,0 +1,68 @@
+.home {
+  padding: 2rem;
+  background-color: #141414;
+  color: #E0E0E0;
+  width: 100%;
+}
+
+.hero {
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #4B0082, #1f1f1f);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  flex: 1;
+  overflow: hidden;
+}
+
+.carousel-btn {
+  background-color: #6A0DAD;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #9370DB;
+}
+
+.featured h2 {
+  font-size: 1.8rem;
+  color: #E0E0E0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+

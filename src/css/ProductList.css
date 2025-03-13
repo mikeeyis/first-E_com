@@ -1,0 +1,23 @@
+.product-list {
+    padding: 2rem;
+    background-color: #141414; /* Deep black */
+    color: #E0E0E0; /* Soft white */
+  }
+  
+  .product-list h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #9370DB; /* Light purple */
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  @media (max-width: 480px) {
+    .product-list { padding: 1rem; }
+    .product-list h1 { font-size: 1.5rem; }
+    .products-grid { grid-template-columns: 1fr; }
+  }
